@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    background-color: black;
+    color: blanchedalmond;
+    
+
+}
+
+a {
+  color: antiquewhite;
+  text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}
+.container {
+    width: 90%;
+    margin: auto;
+
+}
+/*Navigation */
+.nav-main {
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+}
+.nav-brand {
+  width: 60px;
+}
+/* NAV LEFT */
+.nav-main ul {
+    display: flex;
+}
+.nav-main ul li {
+    padding: 10px;
+}
+.nav-main ul li a:hover {
+    border-bottom: 2px solid blanchedalmond;
+
+
+}
+
+.nav-main ul.nav-manu {
+    flex: 1;
+    margin-left: 20px;
+}
+.nav-main ul.nav-menu {
+    flex: 1;
+    margin-left: 20px;
+
+}
+/* SHOWCASE */
+.showcase {
+    width: 100%;
+    height: 500%;
+    background: url('./img/bici-estatica.jpg') no-repeat center center/cover;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.btn {
+    cursor:pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: black;
+    color:blanchedalmond;
+    font-size: 15px;
+    border: 1px solid White;
+    margin: 10px 0;
+}
+
+.btn:hover {
+    opacity: .7;
+}
+
+.showcase h2
+.showcase p{
+    margin-bottom: 10px;
+}
+
+/* NEWS CARDS */
+.news-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    margin: 10px 0;
+
+}
+
+.news-cards img {
+    width: 100%;
+    margin: 0;
+    height: 300px;
+
+
+}
+.news-cards h3 {
+    font-size-adjust: 20px;
+    margin: 30px 0;
+
+}
+.news-cards a{
+    padding: 10px 0;
+    color: cornsilk;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: ;bold
+}
+
+/* CARDS BANNER ONE*/
+.cards-banner-one{
+    width:  100%;
+    height: 350px;
+    background: url('./img/tech-red.jpg');
+    margin-bottom: 40px;
+
+
+}
+.cards-banner-one .content{
+    width: 40%;
+    padding:90px 0 0 30px;
+    color: azure;
+}
+
+.cards-banner-one P,
+.cards-banner-one h2{
+    margin: 10px 0 20px 0;
+}
+
+/* Social */
+.social {
+    margin: 50px;
+
+}
+.social p {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.link { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link a {
+    margin: 0 30px;
+}
+
+.link a i{
+    font-size: 3rem;
+}
